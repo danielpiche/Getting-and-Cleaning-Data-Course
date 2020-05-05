@@ -48,17 +48,17 @@ Load the run_analsyis.R script
 source("run_analysis.R")
 ```
 
-Run the script. It returns the tidy dataset from Steo 5 of the assignment, namely the averages of the means and standard deviations grouped by Activity and Subject. You can store them in an object if you like.
+Run the script. It returns the tidy dataset from Step 5 of the assignment, namely the averages of the means and standard deviations grouped by Activity and Subject. You can store them in an object if you like.
 
 ```
-data_sets<-run_analysis()
+averages_data<-run_analysis()
 ```
 
 The script also writes both data sets to the following files in the original working directory retrieves with the getwd() command:
 
 ```
-mean_std_data.csv
-averages_data.csv
+mean_std_data.txt
+averages_data.txt
 ```
 
 You can then analyze the data from the files or from the object returned by the run_analysis.R script.

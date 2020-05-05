@@ -19,12 +19,12 @@ a markdown file (.md) suitable for publishing to GitHub is generated.
 
 I performed an analysis of the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) using the script run_analysis.R (provided as a separate file) in order to generate two data sets, namely:  
 
-1. mean_std_data.csv  
-2. averages_data.csv
+1. mean_std_data.txt  
+2. averages_data.txt
 
-### mean_std_data.csv
+### mean_std_data.txt
 
-The mean_std_data.csv dataset contains the following columns from measurements of an accelerometer place on a studied individual:  
+The mean_std_data.txt dataset contains the following columns from measurements of an accelerometer place on a studied individual:  
 
 * Data Set: Whether the row was test or training data  
 * Subject: The individual in the study to which the data pertains (1-30 indivuals were studied)  
@@ -39,9 +39,9 @@ The other columns refer to the mean and standard deviation along the -XYZ axis f
 > These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions._   
 
-### averages_data.csv
+### averages_data.txt
 
-The averages_data.csv dataset summarizes the data from the mean_std_data.csv dataset by taking the mean of each column grouped by the columns Activity and Subject.
+The averages_data.txt dataset summarizes the data from the mean_std_data.txt dataset by taking the mean of each column grouped by the columns Activity and Subject.
 
 ### run_analysis.R
 
